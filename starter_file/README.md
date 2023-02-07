@@ -1,5 +1,3 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
 # Capstone Project - Heart Disease Prediction
 
 This is the final project for the Udacity Machine Learning Nanodegree program.In this project,created two experiments; one using Microsoft Azure Machine Learning Hyperdrive package, and another using Microsoft Azure Automated Machine Learning with the Azure Python SDK.
@@ -33,17 +31,7 @@ This is a binary classification problem, where the outcome 'HeartDisease' will e
 ### Access
 Dataset is created uploading the downloaded datafile from kaggle and registered the dataset to the datastore.
 
-from azureml.core import Workspace, Dataset
-
-subscription_id = 'b1d4fcba-3863-40a9-84b1-4b0f82fd16cc'
-resource_group = 'rg-UMRDataExternalization-dev'
-workspace_name = 'UMRAIMLND'
-
-workspace = Workspace(subscription_id, resource_group, workspace_name)
-
-dataset = Dataset.get_by_name(workspace, name='HeartDisease')
-dataset.to_pandas_dataframe()
-
+ds = TabularDatasetFactory.from_delimited_files(['https://raw.githubusercontent.com/sireeshag09/udacity-capstone/main/heart.csv'])
 
 ## Automated ML
 An AutoML is built on the HeartDisease dataset to automatically train and tune machine learning algorithms at various hyperparameter tuning and feature selection for an optimal selection of a model that best fits the training dataset using a given target metric.
