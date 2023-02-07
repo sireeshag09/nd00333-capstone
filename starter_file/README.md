@@ -62,7 +62,7 @@ The key steps for HyperDrive Tuning involves search space,Sampling Method,Primar
 
 Model training can be controlled through hyperparameters and run experiments in parallel to efficiently optimize hyperparameters.
 
-The best performing model using HyperDrive has Parameter Values as batchsize = 20, frequency = 400. 
+The best performing model using HyperDrive has Parameter Values as batchsize = 20, frequency = 600. 
 The AUC_weighted of the Best Run is 0.9415233415233415 with an accuracy of 0.89130434
 <img width="1600" alt="Hyperparameter Run Visualization" src="https://user-images.githubusercontent.com/46094082/216807543-5208bee7-9ad9-46f2-a576-550a92e5e250.png">
 
