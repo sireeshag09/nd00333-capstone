@@ -88,11 +88,12 @@ Even though HyperDrive Model performed slightly better than AutoML model for Hea
 <img width="973" alt="Active Endpoint" src="https://user-images.githubusercontent.com/46094082/216807842-dd0c82cd-a697-4b56-9846-5472232ec2c1.png">
 
 ## Screen Recording
+
  Link to the screen recording of the capstone project in action demonstarting the working deployed model.
 - https://youtu.be/E9kZBY8aXT8
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
 To detect anomalies and visulaize performance
 
 1.Enable Application Insights
