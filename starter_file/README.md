@@ -90,7 +90,8 @@ Even though HyperDrive Model performed slightly better than AutoML model for Hea
 ## Screen Recording
 
  Link to the screen recording of the capstone project in action demonstarting the working deployed model.
-- https://youtu.be/E9kZBY8aXT8
+- https://youtu.be/E9kZBY8aXT8 
+- https://youtu.be/cSgJAbw1OUE - Rerecorded the session to keep it to 5mins
 
 ## Standout Suggestions
 
